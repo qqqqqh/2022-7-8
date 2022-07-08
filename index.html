@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登陆页面</title>
+    <style>
+         * {
+            padding: 0;
+            margin: 0
+        }
+        a {
+            text-decoration: none;
+            color:rgb(61, 57, 57);
+            font-size: 12px;
+        }
+        body {
+            background: skyblue;
+        }
+        .login {
+            width: 500px;
+            height: 339px;
+            background: #fff;
+            margin-top: 34px;
+            margin-left: 50px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+        }
+        .bgDiv,
+        .login{
+            padding: 50px;
+            font-size: 17px;
+            text-align: center;
+
+        }
+        .forgetLink {
+            
+            padding-left: 340px;
+            
+        }
+
+        .btn {
+            width: 364px;
+            height: 40px;
+            background: #4892ff;
+            border: 1px solid #326dcc;
+            color: #fff;
+            font-size: 16px;
+            margin-left: 30px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div>
+        <div class="bgDiv">
+            <div class="login">
+
+                <div class="username">
+                    <form>
+                    用户名: <input class="userInp" type="text" placeholder="请输入用户名" />
+                    </form>
+                </div>
+                <div class="pwd">
+                    <form>
+                    密  码:<input class="pwdInp" type="password" placeholder="请输入密码" />
+                    </form>
+                </div>
+                <div class="forgetPwd">
+
+                    <a class="forgetLink" href="#" target="">忘记密码</a>
+                </div>
+                <button class="btn">登录</button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
